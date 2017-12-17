@@ -20,7 +20,7 @@ public class MavenTest {
 	public void check() throws IOException{
 	System.setProperty("webdriver.gecko.driver", "D://Souvik//Selenium//Selenium Jar//geckodriver-v0.11.1-win64//geckodriver.exe");
 	System.out.println("Hello");
-	Reporter.log("Hellp");
+	Reporter.log("Hellp"); 
 	WebDriver driver = new FirefoxDriver();
 	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	//The below method will save the screen shot in d drive with name "screenshot.png"
