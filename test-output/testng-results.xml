@@ -1,29 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[Hellp]]>
+      <![CDATA[Inside PP Class 1st Methos]]>
     </line>
     <line>
-      <![CDATA[D:\MyTest\Screenshots\20171217_120159.png]]>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[3rd line PP]]>
+    </line>
+    <line>
+      <![CDATA[Inside 1st Methos]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+    <line>
+      <![CDATA[3rd line]]>
+    </line>
+    <line>
+      <![CDATA[Inside 1st Methos]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26033" started-at="2017-12-17T06:31:34Z" finished-at="2017-12-17T06:32:00Z">
+  <suite name="Suite" duration-ms="63" started-at="2017-12-17T11:43:54Z" finished-at="2017-12-17T11:43:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26033" started-at="2017-12-17T06:31:34Z" finished-at="2017-12-17T06:32:00Z">
+    <test name="Test" duration-ms="63" started-at="2017-12-17T11:43:54Z" finished-at="2017-12-17T11:43:54Z">
       <class name="MavenCheck.MavenCheck.MavenTest">
-        <test-method status="PASS" signature="check()[pri:0, instance:MavenCheck.MavenCheck.MavenTest@215be6bb]" name="check" duration-ms="26011" started-at="2017-12-17T12:01:34Z" finished-at="2017-12-17T12:02:00Z">
+        <test-method status="PASS" signature="check1()[pri:0, instance:MavenCheck.MavenCheck.MavenTest@23ceabc1]" name="check1" duration-ms="6" started-at="2017-12-17T17:13:54Z" finished-at="2017-12-17T17:13:54Z">
           <reporter-output>
             <line>
-              <![CDATA[Hellp]]>
+              <![CDATA[Inside 1st Methos]]>
             </line>
             <line>
-              <![CDATA[D:\MyTest\Screenshots\20171217_120159.png]]>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[3rd line]]>
             </line>
           </reporter-output>
-        </test-method> <!-- check -->
+        </test-method> <!-- check1 -->
+        <test-method status="PASS" signature="check2()[pri:0, instance:MavenCheck.MavenCheck.MavenTest@23ceabc1]" name="check2" duration-ms="1" started-at="2017-12-17T17:13:54Z" finished-at="2017-12-17T17:13:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside 1st Methos]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check2 -->
       </class> <!-- MavenCheck.MavenCheck.MavenTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="ParllelTest.newTest">
+        <test-method status="PASS" signature="checkPp()[pri:0, instance:ParllelTest.newTest@4520ebad]" name="checkPp" duration-ms="24" started-at="2017-12-17T17:13:54Z" finished-at="2017-12-17T17:13:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside PP Class 1st Methos]]>
+            </line>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+            <line>
+              <![CDATA[3rd line PP]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkPp -->
+      </class> <!-- ParllelTest.newTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
