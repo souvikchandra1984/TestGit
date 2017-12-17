@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Hellp]]>
+    </line>
+    <line>
+      <![CDATA[D:\MyTest\Screenshots\20171217_120159.png]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26033" started-at="2017-12-17T06:31:34Z" finished-at="2017-12-17T06:32:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26033" started-at="2017-12-17T06:31:34Z" finished-at="2017-12-17T06:32:00Z">
+      <class name="MavenCheck.MavenCheck.MavenTest">
+        <test-method status="PASS" signature="check()[pri:0, instance:MavenCheck.MavenCheck.MavenTest@215be6bb]" name="check" duration-ms="26011" started-at="2017-12-17T12:01:34Z" finished-at="2017-12-17T12:02:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hellp]]>
+            </line>
+            <line>
+              <![CDATA[D:\MyTest\Screenshots\20171217_120159.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check -->
+      </class> <!-- MavenCheck.MavenCheck.MavenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
